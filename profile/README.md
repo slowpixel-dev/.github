@@ -2,7 +2,7 @@
   <a href="https://slowpixel.dev">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/slowpixel-dev/.github/main/profile/slowpixel-logo-dark.svg">
-      <img alt="Slow Pixel" src="https://raw.githubusercontent.com/slowpixel-dev/.github/main/profile/slowpixel-logo.svg" height="56">
+      <img alt="SlowPixel" src="https://raw.githubusercontent.com/slowpixel-dev/.github/main/profile/slowpixel-logo.svg" height="56">
     </picture>
   </a>
 </p>
@@ -20,6 +20,6 @@ Claude, Hermes or any MCP client sends structured content; the display lays it o
 |---|---|
 | **slowpixel-cloud** | Accounts, display pairing, a web dashboard and an MCP relay between agents and displays (TypeScript, React). |
 | **slowpixel-device** | The device daemon in Zig: one static binary on a Raspberry Pi that lays out content and drives the e-ink panel. |
-| **zalesos** | ZalesOS: the Raspberry Pi SD card image that turns a Pi into a Slow Pixel display. |
+| **zalesos** | ZalesOS: the display's operating system (Yocto) for a Raspberry Pi 5 or Zero 2 W, with the daemon built in and signed A/B updates. |
 
 The repositories are private for now. Start at [slowpixel.dev](https://slowpixel.dev) and its user documentation (`/dokumentace`).
